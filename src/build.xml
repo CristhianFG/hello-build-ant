@@ -4,7 +4,7 @@
   <target name="build" depends="compilar">
   </target>
   
-  <target name="compile">
+  <target name="compilar">
         <mkdir dir="../class"/>
         <javac srcdir="." destdir="../class"/>
     </target>
