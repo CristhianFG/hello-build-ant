@@ -1,12 +1,23 @@
 <?xml version="1.0"?>
 <project name="hello-build-ant" default="build">
   
-  <target name="build" depends="compilar">
+  <target name="build" depends="jar">
   </target>
+  
+  <target name="jar" depends="compilar">
+        <mkdir dir="../jar"/>
+        <jar destfile="../jar/HelloWorld.jar" basedir="../class">
+            <manifest>
+                <attribute name="Main-Class" value="HelloWorld"/>
+            </manifest>
+        </jar>
+    </target>
   
   <target name="compilar">
         <mkdir dir="../class"/>
         <javac srcdir="." destdir="../class"/>
     </target>
+  
+  
   
 </project>
