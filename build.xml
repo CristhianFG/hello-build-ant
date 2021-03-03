@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
-<project name="Mi_Proyecto" default="todo">
+<project name="Mi_Proyecto" default="build">
   
-  <target name="todo">
+  <target name="build">
   </target>
   
 </project>
