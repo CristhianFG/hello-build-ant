@@ -1,7 +1,0 @@
-<?xml version="1.0"?>
-<project name="Mi_Proyecto" default="todo">
-  
-  <target name="todo">
-  </target>
-  
-</project>
