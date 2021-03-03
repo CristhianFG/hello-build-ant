@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<project name="Mi_Proyecto" default="build">
+<project name="hello-build-ant" default="build">
   
   <target name="build">
   </target>
