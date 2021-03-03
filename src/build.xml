@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<project name="hello-build-ant" default="build">
+  
+  <target name="build" depends="compilar">
+  </target>
+  
+  <target name="compilar">
+      <javac srcdir="." destdir="../class"/>
+  </target>
+  
+</project>
