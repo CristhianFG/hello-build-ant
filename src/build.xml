@@ -1,7 +1,11 @@
 <?xml version="1.0"?>
 <project name="hello-build-ant" default="build">
   
-  <target name="build" depends="jar">
+  <target name="build" depends="run">
+  </target>
+  
+  <target name="run" depends="jar">
+        <java jar="../jar/HelloWorld.jar" fork="true"/>
   </target>
   
   <target name="jar" depends="compilar">
